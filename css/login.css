@@ -1,0 +1,309 @@
+body
+{
+    background-color: #f8f3f3;
+    margin: 0;
+}
+
+
+main
+{
+    display: flex;
+    height: 100vh;
+}
+
+#logo-decoration1
+{
+    color: #335c67;
+}
+
+#logo-decoration2
+{
+    color: #ef6461;
+    
+}
+
+#logo-decoration3
+{
+    color: #f3a712;
+}
+
+#logo
+{
+    font-size: 2em;  /* 40 pixel*/
+    text-transform: uppercase;
+} 
+
+.login_info
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    width: 40%;
+    background-color: #AE4544;
+
+}
+
+.login_info::before
+{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+.login_info a
+{
+    text-decoration: none;  
+    z-index: 1;  
+}
+
+.login_info p
+{
+    font-size: 1.5em;
+    font-family: helvetica;
+    z-index: 1;
+    color: #f8f3f3;
+    font-weight: bold;
+
+}
+
+.login_info img
+{
+ 
+    width: 90%;
+    height: 500px;
+    z-index: 1;
+    object-fit: contain;
+}
+
+
+
+
+
+
+/* --------------------- LOGIN_FORM ---------------------*/
+
+.login_form
+{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 400px; 
+    padding: 20px; 
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+
+    
+}
+
+
+.login_form p
+{
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: bold;
+    width: 80%;
+    align-self: center;
+}
+
+.link_registrazione 
+{
+    align-self: flex-end;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: helvetica;
+}
+
+
+/* --------------------- FORM STYLE ---------------------*/
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: center;
+    font-family: helvetica;
+    padding: 10px;
+}
+
+form input
+{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.button_submit
+{
+    width: 30%;
+    background-color: #ef6461;
+}
+
+
+.errore
+{
+    color: #ef6461;
+}
+
+.text_password p, .text_username p
+{
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    color: red; 
+    font-size: 10px;
+}
+
+
+
+@media (max-width: 500px)
+{
+   .login_info
+   {
+       display: none;
+       
+   }
+
+   main 
+   {
+        justify-content: center;
+   }
+
+   .login_form
+   {
+       justify-content: center;
+       align-items: center;
+       padding: 40px;
+   }
+
+   .login_form p
+   {
+       font-size: 1.5em;
+   }
+
+    p .errore
+   {
+       font-size: .4em;
+       margin: 0px;
+   }
+    .hidden_username
+
+   {
+      margin-top: 0px;
+   }
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: end;
+    background-color: #AE4544;
+}
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+#modal-view-menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100vw;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#modal-view-menu.hidden
+{
+    display: none;
+}
+
+.div_link
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_menu
+{
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+.close_modale
+{
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

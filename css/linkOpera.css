@@ -1,0 +1,44 @@
+body
+{
+    font-family: helvetica;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+
+
+/* -------------------- nav style -------------------- */
+
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+nav a
+{
+   
+   align-self: center;
+   margin: 10px;
+   margin-left: 5px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover 
+{
+    color: #ef6461;
+}
+
+.username_content h1
+{
+    text-align: end;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    color: #f8f8f8; 
+}

@@ -1,0 +1,734 @@
+body
+{
+    font-family: helvetica;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+
+
+/* -------------------- nav style -------------------- */
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+nav a
+{
+   
+   align-self: center;
+   margin: 10px;
+   margin-left: 5px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover 
+{
+    color: #ef6461;
+}
+
+.color
+{
+    color: #f3a712;
+    margin: 0px;
+}
+
+
+
+.info-user
+{
+    display: inline;
+    display: flex;
+}
+
+.username
+{
+    text-transform: lowercase;
+    color: #f3a712;
+    margin: 0px;
+    align-self: center;
+}
+
+.picture-profile
+{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+
+/* -------------------- section-hero style -------------------- */
+
+.introduction
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.divisore
+{
+    border: 1px solid rgb(223, 223, 223);
+    width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+.hero-content, .introduction
+{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content h2
+{
+    color: white;
+    
+}
+/* -------------------- works-content-utente style -------------------- */
+
+.contenitore-immagine
+{
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+
+    
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.immagine
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.contenitore-risultati
+{
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.contenitore_opera_totale
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contenitore_immagine
+{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 270px;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.immagine
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.works-content-utente
+{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.general-work-utente
+{
+    display: flex;    
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+.contenitore_informazioni_opera
+{
+    width: 95%;
+}
+
+.titolo_opera
+{
+    font-size: .7em;
+    margin-top: 0px;
+    margin-bottom: 0px ;
+    margin-right: 0px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+.info_utente_opera
+{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    justify-content: space-between;
+
+}
+
+
+.picture-profile_utente
+{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+.like
+{
+    width: 20px;
+    height: 20px;
+}
+
+.star
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px ;
+}
+
+.comment
+{
+    width: 25px;
+    height: 25px;
+}
+
+.div_like
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.number_like
+{
+    font-size: .8em;
+    margin-left: 4px;
+}
+
+.immagine:hover
+{
+    opacity: 0.4;
+}
+
+
+
+/* -------------------- commenti style -------------------*/
+
+.contenitore_commento
+{
+    display: flex;
+    align-items: center;
+}
+
+.username_commenti
+{
+    font-size: .6em;
+    text-align: start;
+}
+
+.contenitore_username
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 3px;
+    word-wrap: break-word;
+}
+
+
+.commento
+{
+    border: 0.5px solid black;
+    width: 80%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+form
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.hidde
+{
+    visibility: hidden;
+    width: 0px;
+}
+
+.button_commenti
+{
+    width: 60px;
+    height: 24px;
+    padding: 3px;
+
+    border-radius: 10px;
+    border: .05px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.button_commenti:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- modal-view style -------------------*/
+
+
+
+#modal-view
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100vw;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+
+
+.div_anteprima
+{
+    background-color: #f8f8f8;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image_opera_anteprima
+{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#modal-view.hidden
+{
+    display: none;
+}
+
+.contenitore_immagine_anteprima
+{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 40px;
+}
+
+
+.info_opera_anteprima
+{
+    display: flex;
+}
+
+.close_modale
+{
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.info_opera_modale
+{
+    width: 700px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.immagine_profilo_modale
+{
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+.like_modale
+{
+    width: 25px;
+    height: 25px;
+}
+
+.star_modale
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 4px ;
+}
+
+.comment_modale
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+.commenti_modale
+{
+    margin-top: 40px;
+}
+
+.span_immagine_autore
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.picture_profile_utente_modale
+{
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+
+.contenitore_immagine_username
+{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px;
+}
+
+.username_commenti_modale
+{
+    margin: 0px; 
+    font-size: .5em;
+    max-width: 100%;
+}
+
+
+
+footer
+{
+    display: flex;
+    background-color: #335c67;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 75px;
+    margin-top: 100px;
+}
+
+footer h1 
+{
+    font-size: 1em;
+    
+}
+
+
+
+
+
+
+/*----------------------- media style ------------------------*/
+
+
+
+
+@media (max-width:500px) 
+{
+    footer 
+    {
+       display: none;
+    }
+
+    nav a 
+    {
+        display: none;
+    }
+
+    .introduction
+    {
+        font-size: 1em;
+        margin: auto;
+    }
+
+    /*MODALE*/
+
+    .div_anteprima
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contenitore-immagine
+    {
+        max-width: 350px;
+    }
+
+    .contenitore_totale_modale
+    {
+        width:100%;
+        padding: 10px;
+    }
+
+    .info_opera_anteprima
+    {
+        height: 50%;
+    }
+    
+    .image_opera_anteprima
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .info_opera_modale
+    {
+        width: 350px;
+    }
+
+    .contenitore_immagine_anteprima
+    {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 40px;
+    margin: auto;
+    }
+
+    .info_opera_modale
+    {
+        width: 85%;
+        margin: auto;
+
+    }
+
+    .immagine_profilo_modale
+    {
+        height: 30px;
+        width: 30px;
+    } 
+
+
+
+
+    .like_modale
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+    .star_modale
+    {
+        width: 15px;
+        height: 15px;
+        margin-right: 2px ;
+    }
+
+    .comment_modale
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .commenti_modale
+    {
+        margin-top: 20px;
+    }
+
+    .contenitore_commento
+    {
+        width: 90%;
+    }
+
+    form
+    {
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal-view-menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100vw;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#modal-view-menu.hidden
+{
+    display: none;
+}
+
+.div_link
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_menu
+{
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,197 @@
+body
+{
+    font-family: helvetica;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #783230;
+    z-index: -1;
+    margin: auto;
+}
+
+
+
+/* -------------------- nav style -------------------- */
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+nav a
+{
+   
+   align-self: center;
+   margin: 10px;
+   margin-left: 5px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover 
+{
+    color: #ef6461;
+}
+
+.color
+{
+    color: #f3a712;
+    margin: 0px;
+}
+
+
+
+.info-user
+{
+    display: inline;
+    display: flex;
+}
+
+.username
+{
+    text-transform: lowercase;
+    color: #f3a712;
+    margin: 0px;
+    align-self: center;
+}
+
+.picture-profile
+{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+
+
+/* -------------------- main style -------------------- */
+
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: auto;
+    width: 60vw;
+    height: 80vh;
+    align-self: center;
+    margin-top: 50px;
+    background-color:#eae3e3;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+.intro
+{
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    width: 100%;
+
+    
+}
+
+
+form
+{
+    align-self: flex-start;
+    width: 90%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hidden
+{
+    display: none;
+}
+
+.circle
+{
+    
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 60px;
+    object-fit: cover;
+}
+
+.descrizione
+{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    border: none;
+}
+
+
+textarea
+{
+    resize: none;
+}
+
+label
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button_submit
+{
+    width: 30%;
+    background-color: #ef6461;
+    border: 0px;
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #f8f8f8;    
+}
+
+.button_submit:hover
+{
+    color: black
+}
+
+
+footer
+{
+    display: flex;
+    background-color: #335c67;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 75px;
+}
+
+footer h1 
+{
+    font-size: 1em;
+    
+}
+
+@media (max-width:500px) 
+{
+    footer p 
+    {
+        font-size: .9em;
+    }
+}

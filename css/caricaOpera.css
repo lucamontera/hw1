@@ -1,0 +1,382 @@
+body
+{
+    font-family: helvetica;
+    background-color: #ef6461;
+    margin: 0px;
+}
+
+
+
+/* -------------------- nav style -------------------- */
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+nav a
+{
+   
+   align-self: center;
+   margin: 10px;
+   margin-left: 5px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover 
+{
+    color: #ef6461;
+}
+
+.color
+{
+    color: #f3a712;
+    margin: 0px;
+}
+
+
+
+.info-user
+{
+    display: inline;
+    display: flex;
+}
+
+.username
+{
+    text-transform: lowercase;
+    color: #f3a712;
+    margin: 0px;
+    align-self: center;
+}
+
+.picture-profile
+{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+}
+#logo-decoration1
+{
+    color: #335c67;
+    
+}
+
+#logo-decoration2
+{
+    color: #ef6461;
+    
+}
+
+#logo-decoration3
+{
+    color: #f3a712;
+}
+
+#logo
+{
+    font-size: 2em;  /* 40 pixel*/
+    text-transform: uppercase;
+    
+}
+
+
+/* -------------------- FORM STYLE -------------------- */
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+    align-self: center;
+    background-color:#f8f8f8;
+    padding: 30px;
+    width: 80vw;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.intro
+{
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    align-self:center;
+    line-height: 30px;
+    width: 80%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.intro span
+{
+    font-family: Georgia, 'Times New Roman', Times, serif , cursive;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+form
+{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.align_name
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.align_name input
+{
+    display: block; 
+}
+
+.nome_style, .cognome_style
+{
+    width: 100%;
+}
+
+.nome_style input
+{
+    margin-bottom: 10px;
+}
+
+form input
+{
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+form input
+{
+    width: 95%;
+}
+
+#input_nome, #input_tema, #input_prezzo, #input_dimensioni
+{
+    width: 90%;
+}
+
+.button_submit
+{
+    width: 30%;
+    background-color: #ef6461;
+    margin-top: 30px;
+    
+}
+
+.submit
+{
+    display: flex;
+    justify-content: baseline;
+}
+
+.submit label
+{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+footer
+{
+    display: flex;
+    background-color: #335c67;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 75px;
+    margin-top: 100px;
+}
+
+footer h1 
+{
+    font-size: 1em;
+    
+}
+
+@media (max-width:500px) 
+{
+    footer p 
+    {
+        font-size: .9em;
+    }
+
+    nav a 
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+#modal-view-menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width:100vw;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#modal-view-menu.hidden
+{
+    display: none;
+}
+
+.div_link
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_menu
+{
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+
+
+    .align_name
+    {
+       flex-direction: column;
+    }
+
+    .button_submit
+    {
+        width: 90%;
+    }
+}
+
+.close_modale
+{
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

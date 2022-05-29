@@ -1,0 +1,260 @@
+body
+{
+    font-size: 20px;
+    margin: 0px;
+    background-color: #ef6461;
+    color: white;
+}
+
+
+h1, #logo
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:500px)
+{
+    body
+    {
+        font-size: .7em;
+    }
+}
+
+/*HEADER -- NAV */
+
+header
+{
+    display: flex;   
+    background-image: url(file:sfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+
+/*EFFETTO OVERLAY*/
+
+header::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);  
+  }
+
+
+
+ 
+nav
+{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 5;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+#link-nav a
+{
+   align-self: flex-end;
+   margin: 20px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+#link-nav a:hover 
+{
+    color: #ef6461;
+}
+
+
+#link-nav button
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+}
+
+#link-nav button:hover
+{
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: #f3a712;
+}
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+}
+#logo-decoration1
+{
+    color: #335c67;
+}
+
+#logo-decoration2
+{
+    color: #ef6461;
+    
+}
+
+#logo-decoration3
+{
+    color: #f3a712;
+}
+
+#logo
+{
+    font-size: 2em;  /* 40 pixel*/
+    text-transform: uppercase;
+    
+}
+
+.area_logo span
+{
+    display: block;
+    
+}
+
+h1 #logo
+{
+    height: auto;
+} 
+
+/* --------------------- AREA_LOGO ---------------------- */
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+
+}
+
+div
+{
+   z-index: 1;
+}
+
+.area_logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-right: 20px;
+    width:  auto;
+    font-size: 3em;
+    line-height: 80px;
+   
+}
+
+.area_logo h1
+{
+    
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.area_txt
+{
+    
+    align-self: center;
+    width: 50vw;
+    width: 40%;
+    font-family: helvetica;
+    font-size: 1.5em;
+}
+
+.area_txt p
+{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.area_txt a
+{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: .7em;
+}
+
+.area_txt a:hover
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* ------------------------ section style ------------------------*/
+
+
+section
+{
+    background-color: #f8f8f8;
+    height: 100vh;
+}
+
+section div #logo
+{
+    align-self: center;
+}
+
+
+section p
+{
+    color: black;
+}

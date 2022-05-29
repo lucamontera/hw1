@@ -1,0 +1,492 @@
+body
+{
+    font-family: helvetica;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+
+
+/* -------------------- nav style -------------------- */
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+nav a
+{
+   
+   align-self: center;
+   margin: 10px;
+   margin-left: 5px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover 
+{
+    color: #ef6461;
+}
+
+.color
+{
+    color: #f3a712;
+    margin: 0px;
+}
+
+
+
+.info-user
+{
+    display: inline;
+    display: flex;
+}
+
+.username
+{
+    text-transform: lowercase;
+    color: #f3a712;
+    margin: 0px;
+    align-self: center;
+}
+
+.picture-profile
+{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+
+
+.username_content
+{
+    width: 60vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    position: relative;
+    margin-top: 2%;
+    background-color: #ca4442;
+}
+
+.username_content h1
+{
+    text-align: end;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    color: #f8f8f8; 
+}
+
+.picture-profile-content
+{
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+
+.info
+{
+    width: 60vw;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+
+.info-align
+{
+    display: flex;
+    width: 50%;
+}
+
+.info-align-descrizione
+{
+    display: flex;
+    width: 100%;
+}
+
+.info1, .info2
+{
+    display: flex;
+    width: 100%;
+  
+}
+
+.info2
+{
+    width: 60vw;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.info h1, .info1 h1
+{
+    margin-right: 5%;
+    font-size: 1.5em;
+    color: rgb(92, 91, 91);
+}
+
+h1#title
+{
+    margin-right: 5%;
+    font-size: 1.5em;
+    color: black;
+    
+}
+
+
+
+
+
+/* --------------------- opere utente ---------------------*/
+
+.contenitore-immagine
+{
+    display: flex;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+
+    
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.immagine
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.contenitore-risultati
+{
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.contenitore_opera_totale
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contenitore_immagine
+{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 270px;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.immagine
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.works-content-utente
+{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.general-work-utente
+{
+    display: flex;    
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+.contenitore_informazioni_opera
+{
+    width: 90%;
+}
+
+.titolo_opera
+{
+    font-size: .7em;
+    margin-top: 0px;
+    margin-bottom: 0px ;
+    margin-right: 0px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+.info_utente_opera
+{
+    display: flex;
+   justify-content: space-between;
+    height: 70%;
+    align-items: center;
+}
+
+
+.picture-profile_utente
+{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 4px;
+}
+
+
+.hero-content
+{
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero-content h2
+{
+    color: black;
+    
+}
+
+.like
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
+}
+
+.star
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 4px ;
+}
+
+.comment
+{
+    width: 20px;
+    height: 20px;
+}
+
+.div_like
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.number_like
+{
+    font-size: .8em;
+   
+}
+
+.immagine:hover
+{
+    opacity: 0.4;
+}
+
+
+footer
+{
+    display: flex;
+    background-color: #335c67;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 75px;
+    margin-top: 100px;
+}
+
+footer h1 
+{
+    font-size: 1em;
+    
+}
+
+@media (max-width:800px) 
+{
+    footer p 
+    {
+        font-size: .9em;
+    }
+
+
+    .info-align,#nome, #cognome, #email, #descrizione, #numeroOperaCaricate
+    {
+        font-size: .7em;
+       
+    }
+    .info-align
+    {
+        align-items: center;
+    }
+    .info-align h1, h2
+    {
+        font-size: .8em;
+    }
+    .username_content
+    {
+        width: 100%;
+    }
+    .picture-profile-content
+    {
+        width: 110px;
+        height: 110px;
+        top: 120px;
+        margin: 10px;
+    }
+
+    .info
+    {
+        margin-top: 30px;
+    }
+
+    nav a
+    {
+        display: none;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+#modal-view-menu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100vw;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#modal-view-menu.hidden
+{
+    display: none;
+}
+
+.div_link
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_menu
+{
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+
+
+#menu
+{
+    display: none;
+}
+
+#menu div 
+{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+@media (max-width: 800px)
+{
+    #link-nav a, #link-nav button
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        font-size: .5em ;
+        margin-left: 3px;
+    }
+
+    #menu 
+    {
+        display: block;
+        margin-right: 5px;
+    }
+}
+
+.close_modale
+{
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
